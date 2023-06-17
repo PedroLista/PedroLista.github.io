@@ -424,7 +424,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: var(--second-color);
+    color: var(--first-color);
   }
   .nav__link-es,
   .nav__link-en {
