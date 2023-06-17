@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link type="image/png" sizes="100x100" rel="icon" href="assets/icon/icons8-rocket-32.png" />
+    
+    
+    <title>Pedro Lista</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav h-grid">
+        <div>
+          <a href="#" class="nav__logo">Pedro Lista</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">Presentación</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Proyectos</a></li>
+            <li class="nav__item"><a href="#Logros" class="nav__link">Logros</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+            <li class="nav__item"><a href="./index-es.html" class="nav__link nav__link-es">Español</a></li>
+            <li class="nav__item"><a href="./index-fr.html" class="nav__link nav__link-en">Français</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home h-grid" id="home">
+        <div data-aos="fade-down" class="home__data">
+          <h1 class="home__title">
+            Hola!! <br />
+            Soy <span class="home__title-color">Pedro Lista</span> <br />
+            Estudiante de DAM y Ciberseguridad
+          </h1>
+          <a
+            href="https://drive.google.com/"
+            target="_blank"
+            class="button"
+            data-aos="fade-down"
+            >Ver CV</a
+          >
+        </div>
+
+        <div data-aos="fade-down" class="home__social">
+          <a href="https://www.linkedin.com/in/pedrolista" target="_blank" class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/PedroLista" target="_blank" class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dukeinvictus@gmail.com"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+        </div>
+
+        <div data-aos="fade-down" class="home__img">
+          <img src="./assets/img/profile/" alt="" class="home__img-perfil" />
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 data-aos="fade-down" class="section-title">Me presento:</h2>
+
+        <div data-aos="zoom-in" class="about__container h-grid">
+          <div class="about__img">
+            <img src="./assets/img/profile/fotocv.jpg" alt="about-perfil" />
+          </div>
+
+          <div data-aos="zoom-in" class="about__content">
+            <h2 class="about__subtitle">Pedro Lista</h2>
+            <p class="about__text">
+              Después de muchos años trabajando en distintos puestos y sectores, finalmente he decidido seguir mi verdadera pasión: la informática. Recientemente he completado el primer año de DAM (Desarrollo de Aplicaciones Multiplataforma) y actualmente me estoy formando de manera independiente en diferentes lenguajes de programación y también en ciberseguridad.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills section" id="skills">
+        <h2 data-aos="fade-down" class="section-title">Skills</h2>
+
+        <div class="skills__container h-grid">
+          <div data-aos="fade-down">
+            <h2 class="skills__subtitle">Me defiendo en:</h2>
+            <div data-aos="fade-down" class="skills__data">
+              <h3 class="skills-title">Lenguajes y Frameworks</h3>
+              <div data-aos="fade-down" class="skills__names tools">
+                <a href="#" class="skills__name"><img src="./assets/icon/python.png" alt="Python" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/java.png" alt="Java" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/spring.png" alt="spring" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/spring-boot.png" alt="springboot" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/c_sharp.png" alt="c#" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/mysql.png" alt="js" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/javascript.svg" alt="js" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/html-5.svg" alt="html" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/css3.svg" alt="css" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/bootstrap.svg" alt="bootstrap" /></a>
+              </div>
+
+              
+
+              <h3 class="skills-title">Tecnologías y Herramientas</h3>
+              <div data-aos="fade-down" class="skills__names tools">
+                <a href="#" class="skills__name"><img src="./assets/icon/git.svg" alt="git" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/github.png" alt="github" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/unity.png" alt="npm" /></a>
+                <a href="#" class="skills__name vite"><img src="./assets/icon/visual-studio-code.svg" alt="vite" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/virtualbox.png" alt="figma" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/linux.png" alt="trello" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/cisco.png" alt="notion" /></a>
+                <a href="#" class="skills__name"><img src="./assets/icon/adobephotoshop.png" alt="slack" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section data-aos="fade-down" class="projects section" id="projects">
+        <h2 class="section-title">Proyectos</h2>
+
+        <div class="projects__container h-grid">
+          <div data-aos="fade-down" class="projects__links">
+            <a href="https://github.com/PedroLista/SaraJones-2D-Plataformas.git" target="_blank"
+              ><img src="./assets/img/projects/Plataformas.png" alt=""
+            /></a>
+            <h4 class="project__title">Juego de plataformas 2D</h4>
+
+            <div class="icon-container icon-container-large">
+              <i class='bx bxl-unity' ></i>              
+              <i class='bx bxl-php'></i>              
+              <i class="bx bxl-adobe"></i>
+              <i class='bx bxl-visual-studio'></i>
+            </div>
+          </div>
+
+          <div data-aos="fade-down" class="projects__links">
+            <a href="https://github.com/PedroLista/Flappyavion2D-Unity.git" target="_blank"
+              ><img src="./assets/img/projects/Avion.png" alt=""
+            /></a>
+            <h4 class="project__title">Juego 2D estilo Flippy</h4>
+
+            <div class="icon-container icon-container-large">
+              <i class='bx bxl-unity' ></i>              
+              <i class='bx bxl-php'></i>              
+              <i class="bx bxl-adobe"></i>
+              <i class='bx bxl-visual-studio'></i>
+            </div>
+          </div>
+
+          <div data-aos="fade-down" class="projects__links">
+            <a href="https://github.com/PedroLista/WEBrickandmorty.git" target="_blank"
+              ><img src="./assets/img/projects/3D.png" alt=""
+            /></a>
+            <h4 class="project__title">Web alimentada con API de Rick&Morty</h4>
+
+            <div class="icon-container icon-container-large">
+              <i class='bx bxl-html5' ></i>
+              <i class='bx bxl-css3' ></i>
+              <i class='bx bxl-javascript' ></i>
+              <i class='bx bxl-bootstrap' ></i>
+              <i class='bx bxl-visual-studio'></i>
+            </div>
+          </div>
+
+          
+
+          <div data-aos="fade-down" class="projects__links">
+            <a href="https://github.com/PedroLista/tiendaPython.git" target="_blank"
+              ><img src="./assets/img/projects/Python3.png" alt=""
+            /></a>
+            
+            <h4 class="project__title">Tienda Basica con Python y persistencia en .TXT</h4>
+            
+            <div class="icon-container icon-container-large">
+              <i class='bx bxl-python'></i>
+              <i class='bx bxl-visual-studio'></i>
+            </div>
+            
+            
+          </div>
+
+          
+        </div>
+      </section>
+      <section class="skills section" id="Logros">
+        <h2 data-aos="fade-down" class="section-title">Logros</h2>
+      
+        <div class="skills__container h-grid">
+          <div data-aos="fade-down">
+            
+            <div data-aos="fade-down" class="skills__data">
+              
+              <div data-aos="fade-down" class="skills__names tools logros-container">
+                <a href="https://www.credly.com/badges/598ea34a-59f0-4cb6-a451-1f8af1eeeda7/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/python-essentials-1.1.png" alt="Python" /></a>
+                <a href="https://www.credly.com/badges/3870a8b2-d379-411c-95ac-877db959078a/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/python-essentials-2.png" alt="Python" /></a>
+                <a href="https://www.credly.com/badges/f3de9f4b-f882-4599-9296-a4694b8d99cf/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/junior-cybersecurity-analyst-career-path.1.png" alt="cisco" /></a>
+                <a href="https://www.credly.com/badges/2b5b54ea-b554-473b-ad4b-a361dd948f0b/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/network-defense.png" alt="cisco" /></a>
+                <a href="https://www.credly.com/badges/8a3a5469-5d5a-422d-bd66-2930f3455d6c/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/networking-basics.png" alt="cisco" /></a>
+                <a href="https://www.credly.com/badges/3fb084a1-9eff-49c1-b56c-1713d7c22a39/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/networking-devices-and-initial-configuration.png" alt="cisco" /></a>
+                <a href="https://www.credly.com/badges/f55c04db-84ee-4b4d-b882-0cd5e81eb0fb/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/cyber-threat-management.png" alt="cisco" /></a>
+                <a href="https://www.credly.com/badges/ce4ccd71-1a33-4ca8-8829-02a0893d763d/public_url" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/endpoint-security.png" alt="cisco" /></a>
+               
+                <a href="https://www.incibe.es/" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/incibe.png" alt="incibe" /></a>
+                <a href="https://education.oracle.com/welcome-cloud-learning-subscription" class="logro-link" target="_blank"><img class="logro-image" src="./assets/logros/Mi proyecto(1).png" alt="Java" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <section class="contact h-grid" id="contact">
+        <h2 data-aos="fade-down" class="section-title">Escríbeme  o conectame en Linkedin:</h2>
+        <p data-aos="fade-down" class="contact__text">
+          
+        </p>
+        <div data-aos="fade-down" class="contact__social">
+          <div class="contact__email">
+            <i class="bx bx-envelope icon"></i>
+            <address class="contact__email-content">dukeinvictus@gmail.com</address>
+          </div>
+        
+          <div class="icon-social">
+            <a href="https://www.linkedin.com/in/pedrolista" target="_blank" class="icon-contact"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dukeinvictus@gmail.com"
+              target="_blank"
+              class="icon-contact"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
